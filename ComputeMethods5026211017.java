@@ -4,7 +4,7 @@ public class ComputeMethods5026211017{
 
 	//temperature
 	public static double fToC(double degreesF){
-		double suhuF = 5/9*(degreesF-32);
+		double suhuF = (degreesF-32)*5/9;
 		return suhuF;
 }
 
